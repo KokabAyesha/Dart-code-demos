@@ -15,5 +15,5 @@ void name(){
   print("The multiplication is ${firstNo*secondNo}");
   print("The devision is ${firstNo/secondNo}");
   print("The calculation is ${23+52-firstNo/secondNo}");
-  //var will use witout $ sign
+//var will use witout $ sign
   }
