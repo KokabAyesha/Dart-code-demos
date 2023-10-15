@@ -1,0 +1,17 @@
+//10/04/2023/Wednesday/concatinations
+void main() {
+  String str1 = "Ayesha",  str2 = "Sana",  str3 = "Kokab";
+//UC:1 concatinate string variabels
+  print(str1+str2+str3);
+//UC:2 concatinate string variabels with string littrels
+  print(str1+" "+str2+" "+str3);
+//in doubel qoute it's represent space
+//UC:3 concatinate other types with string v imp
+  String str4="the values are:";
+  int no1 =10, no2=20;
+  double no3 = 40.34;
+  print(str4 + no1.toString());
+  print(str4 + no2.toString());
+  print(str4 + no3.toString());
+//in string concatination both side will be strings int or string cannot come togather with oprator
+}
