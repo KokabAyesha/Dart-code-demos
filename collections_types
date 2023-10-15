@@ -1,0 +1,37 @@
+//10/04/2023/Wednesday//colletions(list,set,map()are data types as well)
+void main() {
+  //collections
+//list: 3 methods of lists
+// method 1 store 1 to more then values
+//represents list through square brackets  
+  List list1 = [2,3,44,55,33,55,66,32,20];
+  List list2 = ["Kokab", "Ayesha", "Sana"];
+  List details = ["Kokab", "Ayesha", "BSCS", "abc123@gamil.com", 24, 3.11, true];
+  print(list1+ list2+ details);
+  
+// method 2
+  var bestTeacherDetails = ["Muhammad", "SAW", "Always", "best", "teacher"];
+  
+// method 3(genaric list/seprate class link shared in FB group)(best practice)
+  List<String> spirtualHealing = ['Recitation', "Fajar'sQuran", "Qirat", "Five prayers", "Charity"];
+  List<int> stId = [2,3,44,55,33,55,66,32,20];
+  List<double> stGPA = [2.99,3.11,4.1,4.5,3.3];
+  List<bool> list3 = [true,false,true,false,true];
+
+  print(spirtualHealing);
+
+//no restrtion in duplication of number in values of List but in Set is restricted
+ /*3 methods of Sets   
+Set: is a class name. connvention lowerCamelCase, restriction on duplication but not in List, letter S of Set should 
+be capital, it always use in currely braces*/
+// method 1
+  Set favColorSet = {"Blue","Seagreen""Yelow""Narenge"};
+// method 2
+  var favVegSet = {"Carrot","Lady's finger""Cabbige""Beans"};
+// method 3 can define data types in angels brackests
+  Set<String> skillsSet = {"web dev","mobile app dveloper", "UI/UX", "Photography"};
+  Set<int> stID = {2,3,44,55,33,55,66,32,20};
+  
+  print(favColorSet, favVegSet, skillsSet);
+  
+}
