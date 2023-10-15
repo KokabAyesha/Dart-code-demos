@@ -13,5 +13,5 @@ void main() {
   print(str4 + no1.toString());
   print(str4 + no2.toString());
   print(str4 + no3.toString());
-//in string concatination both side will be strings int or string cannot come togather with oprator
+//in string concatination both side will be strings int or string cannot come togather with operator
 }
