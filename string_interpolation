@@ -4,11 +4,11 @@ void name(){
   int rollNo = 22;
   double gpa = 3.11;
   bool isChecked = true;
-  
+//  Simple Use Case
   print("My name is $name");
   print("My rollNo is $rollNo");
   print("My gpa is $gpa");
-
+//Diffrent Use Case  
   int firstNo=10, secondNo = 20;
   print("The addition is ${firstNo+secondNo}");
   print("The subtraction is ${firstNo-secondNo}");
